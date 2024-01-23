@@ -1,0 +1,129 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  color:white;
+}
+
+.apexcharts-legend-text{
+  color: chocolate !important;
+}
+
+.highcharts-credits{
+  display: none;
+}
+
+.even-row {
+  background-color: #f2f2f2; /* Set your desired background color for even rows */
+}
+
+.odd-row {
+  background-color: #ffffff; /* Set your desired background color for odd rows */
+}
+.scroll-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-hidden {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+
+
+body:is(.dark) .mantine-Modal-content, body:is(.dark) .mantine-Modal-header {
+  color: white;
+  background-color: #212a2f;
+}
+ .mantine-Modal-header {
+  border-bottom: 1px solid #e4e9f2 !important ;
+}
+
+body:is(.dark) .mantine-Modal-title{
+  color : white
+}
+.mantine-Modal-title {
+  color : #1e1e1e;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+svg {
+    font-size: 20px !important;
+}
+
+
+td{
+  border: 1px solid #c1c1c1 !important;
+}
+body.dark td{
+  border: 1px solid #5c5151 !important;
+}
+th{
+  border: 1px solid #b8a5a5 !important;
+  /* background-color: #e1e1e1 !important ; */
+  /* color: black; */
+}
+body.dark th{
+  /* color: white; */
+  border: 1px solid #5c5151 !important;
+  /* background-color: #211c1c !important; */
+}
+
+body.dark .mantine-Modal-close{
+  color : white !important;
+}
+body.dark .mantine-Modal-close:hover{
+  background-color: #263238;
+}
+
+body.dark :is(.mantine-1eu8kj1, .mantine-1knjhw7, .mantine-m3o073, tbody.mantine-yzu17x > tr > td) {
+  background-color: #1e2a30;
+  /* background-color: #1e1e1e !important; */
+
+}
+
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
