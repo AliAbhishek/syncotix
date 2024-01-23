@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { BsSpeedometer2 } from 'react-icons/bs'
 import MantineTable from '../../GlobalUses/MantineTable'
-import { hvacReport } from '../../../utills/api/Reports/INdex'
+import { hvacReport } from '../../../utills/api/Reports/index'
 import { useQuery } from 'react-query'
 
 const ReportRealKitchen = () => {
